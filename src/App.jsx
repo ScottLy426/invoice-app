@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import Homepage from "./pages/Homepage";
+import Invoices from "./pages/Invoices";
 import About from "./pages/About";
 
 import { GlobalStyles } from "./global_css/global_styles";
@@ -13,9 +13,8 @@ function App() {
     <div className="App">
       <Reset />
       <GlobalStyles />
-      <Button>Button</Button>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Invoices />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </div>

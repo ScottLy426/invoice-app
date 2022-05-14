@@ -15,7 +15,8 @@ export const GlobalStyles = createGlobalStyle`
     --color-purple-dark-900:    hsl(228, 29%, 7%);     // #0C0E16
     --color-red-300:            hsl(0, 100%, 80%);     // #ff9797
     --color-red-700:            hsl(0, 80%, 63%);      // #EC5757
-
+    --color-green:              hsl(160,67%,52%);      // #33D69F
+    --color-orange:             hsl(34,100%,50%);      // #FF8F00
     --font-family-heading: 'League Spartan', sans-serif;
 
     --font-weight-regular: 400;
@@ -76,6 +77,9 @@ export const GlobalStyles = createGlobalStyle`
  
     --color-background-brand: var(--color-purple-700);
     --color-background-brand-light: var(--color-purple-500);
+
+    --color-button-pending: var(--color-orange);
+    --color-button-paid: var(--color-green);
 
 
     //Component Tokens
